@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FingerPrint lock</string>
+    <string name="fingerprint_message">Umieść palec na skanerze w celu weryfikacji.</string>
+    <string name="successful_message">Identyfikacja zakończona sukcesem.</string>
+    <string name="fingerprint_not_exist">Twoje urządzenie nie posiada sknera linii papilarnych.</string>
+    <string name="fingerprint_not_enabled">Identyfikacja na podstawie linii papilarnych jest niemożliwa na twoim urządzeniu.</string>
+    <string name="fingerprint_not_registered">Dodaj przynajmniej jeden odcisk palca w ustawieniach.</string>
+    <string name="lock_screen_setting_disabled">Zabezpieczenie ekranu zablokowane w ustawieniach.</string>
+    <string name="info">Informacje o aplikacji oraz skanerze:</string>
+    <string name="information_about">    Aplikacja umożliwia odblokowanie ukrytych treści użytkownikom, którzy pozytywnie przeszli proces weryfikacji biometrycznej na podstawie linii papilarnych.
+    Skaner działa ...:</string>
+    <string name="back">Powrót</string>
+    <string name="exit">Zakończ</string>
+    <string name="info_button">Informacje</string>
+    <string name="unlock">Skanuj</string>
+    <string name="scan_finger">Skanuj palec</string>
+    <string name="learnMore">Dowiedz się więcej</string>
+</resources>
+
+

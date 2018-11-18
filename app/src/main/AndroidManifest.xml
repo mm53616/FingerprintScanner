@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mmant.qrnavigation">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/finger"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/finger"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OpenInformation"
+            android:label="Informacje"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".OpenScanner"
+            android:label="Skanowanie"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FingerprintScanning"
+            android:label="Skanuj"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".SecretContent"
+            android:label="Dodatkowe treści"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

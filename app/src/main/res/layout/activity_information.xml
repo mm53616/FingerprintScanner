@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenInformation">
+
+    <ImageView
+        android:src="@drawable/back2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aboutTitleTextView"
+                style="@style/TextStyleTitle"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:text="@string/info" />
+
+
+            <TextView
+                android:id="@+id/aboutTheAppTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/About"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:text="@string/information_about"/>
+
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/ButtonStyle"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_border"
+                android:onClick="Back"
+                android:text="@string/back"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
